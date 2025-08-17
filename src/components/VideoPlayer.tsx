@@ -74,7 +74,7 @@ export default function VideoPlayer({
         >
           {/* use the uploaded file (you can put it in /public/videos or pass as prop) */}
           <source
-            src={videoSrc || "/videos/doctor-intro.mp4"}
+            src={videoSrc || "./videos/doctor-intro.mp4"}
             type="video/mp4"
           />
         </video>

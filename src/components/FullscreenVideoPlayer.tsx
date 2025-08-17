@@ -22,7 +22,7 @@ export default function FullscreenVideoPlayer({
   isOpen,
   onClose,
   doctorName,
-  videoSrc = "/videos/doctor-intro.mp4", // default location in /public/videos/
+  videoSrc = "./videos/doctor-intro.mp4", // default location in /public/videos/
 }: FullscreenVideoPlayerProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(true);
